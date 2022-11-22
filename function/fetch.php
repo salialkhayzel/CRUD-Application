@@ -1,6 +1,6 @@
 <?php 
     // fetching data
-    $query = "<<UPDATE SELECT QUERY>>";
+    $query = "SELECT * FROM tblsubjects";
     $result = mysqli_query($dbc,$query); //using mysql_query
 
 ?>
